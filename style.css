@@ -1,0 +1,124 @@
+body{
+    background-image:url(bk.jpg);
+    margin:0;
+}
+.flex{
+    display:flex;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+.header{
+    height: 45px;
+    background: #EBEDED;
+    width:996px;
+}
+.head1{
+    width:200px;
+    height:45px;
+    border-right: #CDCDCD 1px solid;
+    text-align: center;
+}
+.header p{
+    color:#666666;
+    font-size:14px;
+} 
+.head2{
+    width: 427px;
+    border-left: #F5F6F6 1px solid;
+    height: 45px;
+    border-right: #CDCDCD 1px solid;
+}
+.head2r{
+    margin-left: 10px;
+    width: 178px;
+    height: 30px;
+    float: left;
+    padding-left: 10px;
+}
+.head2l{
+    width: 215px;
+    height: 30px;
+    float: right;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.head2l h1{
+    margin-top:5px;
+    color:red;
+    font-size:25px;
+}
+.site{
+    background: url(new_sw_1000x65%201_1-iloveimg-compressed.gif); 
+    width: 996px; 
+    height: 65px;    
+}
+.vmenu{
+    width:996px;
+    height: 43px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    position: relative;
+    z-index: 100;
+}
+.menu:hover{
+    background:lightgray;
+}
+.lupa:hover{
+    background:lightgray;
+}
+.menu{
+    width:156px;
+    height:43px;
+    background:white;
+    border-right: #CDCDCD     1px solid;
+}
+.lupa{
+    width:60px;
+    height:43px;
+    background:white;
+}
+.menu a{
+    text-decoration: none;
+    font-size:16px;
+    color:#666666;
+}
+.parent{
+    padding-top:10px;
+    box-sizing:border-box;
+    text-align:center;
+}
+.search{
+    width:60px;
+    height:43px;
+    background-image:url(search2.png);
+    background-size:100% 100%;
+}
+.middlebar{
+    background:#F0EFEF;
+    width:996px;
+    height:1012px;
+    background-size:100% 100%;
+    flex-wrap:wrap;
+}
+.food span {
+    position: absolute;
+    width: 208px;
+    font-size: 22px;
+    margin: 10px 0px 0px 10px;
+    color: #000000;
+}
+.food{
+    margin-left:16px;
+    margin-top:16px;
+    
+}
+.food a img {
+    border: 1px solid #d4d4d4;
+}
+.food img:hover{
+    border: 1px solid red;
+}
+.bot{
+    margin-bottom:16px;
+}
