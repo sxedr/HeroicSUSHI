@@ -25,7 +25,7 @@ body{
     font-size:14px;
 } 
 .head2{
-    width: 427px;
+    width: 427px; 
     border-left: #F5F6F6 1px solid;
     height: 45px;
     border-right: #CDCDCD 1px solid;
@@ -87,6 +87,7 @@ body{
     padding-top:10px;
     box-sizing:border-box;
     text-align:center;
+    height:43px;
 }
 .search{
     width:60px;
